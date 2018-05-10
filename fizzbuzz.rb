@@ -6,7 +6,7 @@ def fizzbuzz(i)
       elsif (i % 3) == 0 && (i % 5) == 0
         return "FizzBuzz"
       else
-        return i
+        return nil
   end
 end
 
