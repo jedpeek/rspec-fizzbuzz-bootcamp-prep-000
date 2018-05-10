@@ -1,5 +1,5 @@
 
-puts "Enter Number"]
+puts "Enter Number"
 n = gets.strip
 fizzbuzz(n)
 
