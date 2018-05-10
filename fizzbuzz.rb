@@ -14,5 +14,4 @@ def fizzbuzz(n)
       print nil
   end
 end
-
-puts fizzbuzz(n)
+fizzbuzz(n)
