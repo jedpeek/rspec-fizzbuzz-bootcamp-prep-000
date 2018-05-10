@@ -11,4 +11,4 @@ def fizzbuzz(n)
   end
 end
 
-puts fizzbuzz(10)
+fizzbuzz(n)
