@@ -5,13 +5,13 @@ n = gets.strip
 
 def fizzbuzz(n)
   if (n % 3) == 0 && (n % 5) == 0
-    puts "FizzBuzz"
+    print "FizzBuzz"
   elsif (n % 3) == 0
-      puts "Fizz"
+      print "Fizz"
   elsif (n % 5) == 0
-      puts "Buzz"
+      print "Buzz"
     else
-      puts nil
+      print nil
   end
 end
 
