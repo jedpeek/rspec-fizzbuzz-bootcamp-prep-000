@@ -1,7 +1,7 @@
 
 puts "Enter Number"
 n = gets.strip
-fizzbuzz(n)
+
 
 def fizzbuzz(n)
   if (n % 3) == 0 && (n % 5) == 0
@@ -14,3 +14,4 @@ def fizzbuzz(n)
       return nil
   end
 end
+fizzbuzz(n)
