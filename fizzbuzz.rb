@@ -1,6 +1,6 @@
 
 puts "Enter Number"
-n = gets.strip
+
 def fizzbuzz(n)
   if (n % 3) == 0 && (n % 5) == 0
     return "FizzBuzz"
@@ -12,5 +12,5 @@ def fizzbuzz(n)
       return nil
   end
 end
-
+n = gets.strip
 fizzbuzz(n)
