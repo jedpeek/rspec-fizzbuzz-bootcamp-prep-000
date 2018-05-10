@@ -14,4 +14,5 @@ def fizzbuzz(n)
       puts nil
   end
 end
-fizzbuzz(n)
+
+puts fizzbuzz(n)
