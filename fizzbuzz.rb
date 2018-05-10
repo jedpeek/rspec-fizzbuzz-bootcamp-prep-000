@@ -1,17 +1,13 @@
 
-puts "Enter Number"
-n = gets.strip
-
-
 def fizzbuzz(n)
   if (n % 3) == 0 && (n % 5) == 0
-    print "FizzBuzz"
+    return "FizzBuzz"
   elsif (n % 3) == 0
-      print "Fizz"
+      return "Fizz"
   elsif (n % 5) == 0
-      print "Buzz"
+      return "Buzz"
     else
-      print nil
+      return nil
   end
 end
 fizzbuzz(n)
